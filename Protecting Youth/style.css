@@ -1,0 +1,423 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set text styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #0077b6;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Style sections */
+section {
+    padding: 10rem;
+    margin: 1rem;
+    background-size: cover; /* Add this line to make the background image cover the entire section */
+}
+
+/* Style the footer */
+/* ... (previous styles) */
+
+/* Style the footer */
+footer {
+    background-color: #0077b6;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Style the "Follow Us" and "Useful Links" sections */
+.follow-us, .useful-links {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+/* Style the heading and links */
+h3 {
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Add a button style for the CTA button */
+.cta-button {
+    display: inline-block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #005b8e;
+}
+
+/*-----help-----*/
+
+/* ... (previous styles) */
+
+/* Style the "Help and Advice" section */
+#help-advice {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Style the "Help Boxes" */
+.help-box {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.help-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.help-box p {
+    font-size: 1.2rem;
+}
+
+/* Style the CTA button */
+#help-advice .cta-button {
+    display: inline-block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#help-advice .cta-button:hover {
+    background-color: #005b8e;
+}
+
+
+/* ... (previous styles) */
+
+/* Style the "Resources" section */
+#resources {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Style the "Resource Boxes" */
+.resource-box {
+    background-color: rgba(255, 255, 255, 0.668); /* Add a semi-transparent white background for boxes */
+    color: #150707;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.resource-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.resource-box p {
+    font-size: 1.2rem;
+}
+
+/* Style the CTA button */
+#resources .cta-button {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#resources .cta-button:hover {
+    background-color: #005b8e;
+}
+
+
+/* ... (previous styles) */
+
+/* Style the "Recently Uploaded Blog" section */
+#recent-blogs {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #f2f2f2;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the individual "Blog Posts" */
+.blog-post {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: calc(50% - 10px); /* 50% width for each blog post */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.blog-post h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.blog-post p {
+    font-size: 1.2rem;
+}
+
+.blog-post a {
+    display: block;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 1rem 0;
+    transition: background-color 0.3s;
+}
+
+.blog-post a:hover {
+    background-color: #005b8e;
+}
+
+
+/* ... (previous styles) */
+
+/* Style the form elements */
+#contact {
+    padding: 2rem;
+    margin: 1rem;
+    background-image: url('images/youth.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color for better contrast on the background */
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical; /* Allows vertical resizing of the textarea */
+}
+
+button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005b8e;
+}
+
+#help-advice {
+    padding: 2rem;
+    margin: 1rem;
+    background-image: url('images/help.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   /* Text color for better contrast on the background */
+}
+
+/* ... (previous styles) */
+
+/* Style the individual "Help Boxes" with transparency */
+.help-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+#help-advice h2 {
+    background: linear-gradient(to right, #ff3366, #0077b6); /* Replace with your gradient colors */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* ... (previous styles) */
+
+/* Style section boxes */
+.support-box {
+   
+    background: rgba(150, 193, 216, 0.7) url('images/y') no-repeat center/cover;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #ec2966;
+}
+
+.support-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+   
+}
+
+.support-box p {
+    font-size: 1.2rem;
+}
+
+/* Style the "Support" section with a background image */
+#support {
+    background-image: url('support-background.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #100e0e; /* Text color for better contrast on the background */
+}
+
+/* ... (continue with other styles) */
+/* Style the "About Us" section */
+#about {
+    background: #f9f9f9;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Style other sections on the "About" page */
+.sbox {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.sbox h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.sbox p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.contactc{
+    background-color: #89c4e3;
+}

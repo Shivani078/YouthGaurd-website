@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouthGuard - Online Safety</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>YouthGuard</h1>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/homepage.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/help.html">Resources</a></li>
+                <li><a href="http://127.0.0.1:5500/support.html">Support</a></li>
+                <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" style="background-image: url('images/welcome');">
+        <h2>Welcome to YouthGuard - Online Safety</h2>
+        <p>Your trusted resource for empowering youth and promoting online safety.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+
+
+    <section id="help-advice">
+        <h2>Help and Advice</h2>
+        <div class="help-box">
+            <h3>Online Safety Resources</h3>
+            <p>Access a wealth of educational materials, articles, and videos to stay safe online.</p>
+        </div>
+        <div class="help-box">
+            <h3>Peer Support Network</h3>
+            <p>Connect with peers who can provide advice and support for online challenges you may face.</p>
+        </div>
+        <div class="help-box">
+            <h3>Professional Guidance</h3>
+            <p>Our team of experts is available to answer your questions and provide professional advice.</p>
+        </div>
+        
+    </section>
+
+
+    <section id="resources" style="background-image: url('images/resorces2');">
+        <h2>Resources</h2>
+        <div class="resource-box">
+            <h3>Articles</h3>
+            <p>Read informative articles on various online safety topics.</p>
+        </div>
+        <div class="resource-box">
+            <h3>Video Tutorials</h3>
+            <p>Watch video tutorials to learn practical online safety tips and techniques.</p>
+        </div>
+        <div class="resource-box">
+            <h3>Interactive Games</h3>
+            <p>Engage in fun and educational games that teach online safety in an interactive way.</p>
+        </div>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+
+   
+<section id="recent-blogs">
+    <h2>Recently Uploaded Blog</h2>
+    <div class="blog-post">
+        <img src="images/blog1.png" alt="Blog Post 1">
+        <h3>Blog Post Title 1</h3>
+        <p>Short description of the first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">Read More</a>
+    </div>
+    <div class="blog-post">
+        <img src="images/blog.png" alt="Blog Post 2">
+        <h3>Blog Post Title 2</h3>
+        <p>Short description of the second blog post. Nulla facilisi. Mauris eleifend ex id ligula elementum.</p>
+        <a href="#">Read More</a>
+    </div>
+    
+</section>
+
+
+    <!-- ... (previous code) -->
+
+<section id="contact" class="section-box with-background">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, please don't hesitate to get in touch with us.</p>
+    <form action="process_contact.php" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+
+
+    <!-----Footer------>
+    <footer>
+        <div class="footer-content">
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="useful-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#support">Support</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 YouthGuard - Online Safety</p>
+    </footer>
+</body>
+</html>
